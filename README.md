@@ -1,11 +1,11 @@
-# weblogschemagen
+# waschemagen
 Recursively scans Azure Web Apps log directory and creates both table and partition schemas.
 
 ##Script syntax
 <code>
-usage: weblogschemagen.py [-h] [-v] table directory script 
+usage: waschemagen.py [-h] [-v] table directory script 
                                                            
-Azure Web Sites logs hive schema generator.                
+Azure Web Apps log Hive schema generator.                
                                                            
     positional arguments:                                      
       table       name of the hive table                       

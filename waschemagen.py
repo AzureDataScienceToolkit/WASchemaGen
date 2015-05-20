@@ -1,10 +1,10 @@
-#Azure Web Apps logs schema generator. Creates both external table and set of partitions
+#Azure Web Apps loWgs schema generator. Creates both external table and set of partitions
 #Usage: weblogschemagen.py [table] [HDFS directory] [HQL script name]
 
 import argparse, os
 
 #reading and validating input arguments
-parser = argparse.ArgumentParser(description="Azure Web Sites logs hive schema generator.")
+parser = argparse.ArgumentParser(description="Azure Web Apps log Hive schema generator.")
 parser.add_argument('table', type=str, help='name of the hive table')
 parser.add_argument('directory', type=str, help='name of HDFS directory (may be wasb://...)')
 parser.add_argument('script', type=str, help='name of generated script file')
