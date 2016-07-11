@@ -21,5 +21,5 @@ Azure Web Apps log Hive schema generator.
 
 ###Generating table and partition schema script
 <code>
-weblogschemagen.py mylogtable wasb://mycontainer@mystorage.blob.core.windows.net/logs/ mylogs.hql
+waschemagen.py mylogtable wasb://mycontainer@mystorage.blob.core.windows.net/logs/ mylogs.hql
 </code>
